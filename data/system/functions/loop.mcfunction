@@ -8,4 +8,4 @@
 
 
 #Build Helper
-    function system:gen/cactiflower
+    execute as @a at @s if block ~ ~ ~ cactus run function system:gen/cactiflower
