@@ -12,6 +12,7 @@ execute if score bossmove section2 matches 11.. if score bosstick section2 match
 execute if entity @e[type=arrow,x=-193,y=-11,z=35,dx=-4,dy=4,dz=4,tag=b2a] run kill @e[type=arrow,x=-193,y=-11,z=35,dx=-4,dy=4,dz=4,tag=b2a]
 
 execute if score bosscd section2 matches 1..30 run fill -200 -12 53 -202 -10 53 air
+execute if score bossmove section2 matches 1..10 run fill -200 -12 53 -202 -10 53 birch_fence
 
 execute if score bosscd section2 matches 1..30 run fill -198 -8 33 -198 -19 40 minecraft:magenta_stained_glass_pane
 execute if score bosscd section2 matches 1..30 run fill -198 -8 33 -192 -19 33 minecraft:magenta_stained_glass_pane
@@ -29,3 +30,9 @@ execute as @a[x=-210,y=-19,z=22,dx=30,dy=12,dz=30,tag=!entboss2] at @s run tellr
 execute as @a[x=-210,y=-19,z=22,dx=30,dy=12,dz=30,tag=!entboss2] at @s run tag @s add entboss2
 
 kill @e[type=arrow,nbt={inGround:1b},tag=b2a]
+
+#Arrow
+function system:course/stage2/boss/cannon
+
+#Chandelier
+function system:course/stage2/boss/chandelier

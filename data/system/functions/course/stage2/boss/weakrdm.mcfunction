@@ -17,3 +17,9 @@ execute if score weakspot section2 matches 4 run fill -198 -8 41 -192 -19 41 air
 
 #Init Cooldown
 scoreboard players set bosscd section2 31
+
+#Reset Chandelier
+clone -190 5 28 -186 10 32 -197 -13 35
+fill -197 -17 39 -193 -14 35 air
+fill -195 -17 38 -195 -17 36 minecraft:spruce_trapdoor
+setblock -195 -17 37 minecraft:spruce_trapdoor[open=true,facing=south]
