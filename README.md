@@ -7,7 +7,7 @@ This is a parkour map where players will have to parkour between 10 huge blocks 
 3. Jungle
 4. Beach
 5. Mesa
-6. Cave
+6. Cherry Grove
 7. Mario
 8. Factory
 9. Sky Block
